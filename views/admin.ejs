@@ -1,0 +1,25 @@
+<%- include('./partials/head.ejs') %>
+
+    <title>Admin</title>
+    </head>
+
+    <body>
+
+        <%- include('./partials/nav.ejs') %>
+
+            <h1>Admin</h1>
+            <p>FLAG{gdofigmo3dfmgoasdn23iua6sdni}</p>
+
+
+            <form id="make_admin">
+                <input id="to_add" type="text"></input>
+                <input type="submit" value="Make Admin"></input>
+            </form>
+            <br></br>
+            <form id="remove_admin">
+                <input id="to_remove" type="text"></input>
+                <input type="submit" value="Remove Admin"></input>
+            </form>
+            <span></span>
+            <script src="/js/admin.js"></script>
+            <%- include('./partials/footer.ejs') %>

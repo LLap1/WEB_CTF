@@ -1,0 +1,19 @@
+<%- include('./partials/head.ejs') %>
+
+    <body>
+        <%- include('./partials/nav.ejs') %>
+
+
+        <h1>Profile</h1>
+
+        <p>Welcome - <%= name %></p>
+        
+        <form id="upload_image">
+            <label class="form-label" for="customFile">Upload Image</label>
+            <input type="file" class="form-control" id="avatar"  />
+            <input type="submit" class="btn btn-primary">
+        </form>
+        
+        <script action="" src="/js/upload_image.js" enctype="multipart/form-data"></script>
+        <span></span>
+        <%- include('./partials/footer.ejs') %>

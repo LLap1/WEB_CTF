@@ -1,0 +1,28 @@
+<%- include('./partials/head.ejs') %>
+
+    <title>Register</title>
+    </head>
+
+    <body>
+
+        <%- include('./partials/nav.ejs') %>
+
+            <h1>Register</h1>
+            <form class="row g-3" id="register">
+                <div class="col-auto">
+                    <input type="username" class="form-control" id="username" name="username" placeholder="Username">
+                </div>
+                <div class="col-auto">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Register</button>
+                </div>
+            </form>
+            <span></span>
+            
+            <script src="/js/register.js">
+
+            </script>
+
+            <%- include('./partials/footer.ejs') %>
