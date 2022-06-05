@@ -1,2 +1,2 @@
-# WEB_CTF
+# WEB CTF
 A web ctf written in nodejs. 
