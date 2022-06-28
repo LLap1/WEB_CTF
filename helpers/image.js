@@ -33,7 +33,6 @@ function _get_file_mimetype(data) { // gets a file and returns the filetype from
 }
 
 function _remove_existing(username, filename) { // gets a username and a filename, removes all the files that are not equal to the filename.
- 
     const path = __dirname + '/../static/image/users/'
     const regex = new RegExp(username + '.*')
     console.log(filename)
